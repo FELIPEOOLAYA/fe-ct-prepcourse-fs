@@ -78,10 +78,10 @@ function deEuroAdolar(euro) {
 }
 
 function esVocal(letra) {
-   var  vocal = a && e && i && o&&  u  ; 
-   if (letra===vocal )
+   
+   if (letra==="a"||letra==="e"||letra==="i"||letra==="o"||letra==="u")
    {
-      return 'Es vocal '; 
+      return 'Es vocal'; 
    }
    else {
     return 'Dato incorrecto'; 

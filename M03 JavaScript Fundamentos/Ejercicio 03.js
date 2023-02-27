@@ -17,12 +17,14 @@ function sonIguales(x, y) {
 
 function tienenMismaLongitud(str1, str2)
  {  
- var dato1 = String.length(str1);
- var dato2 = String.length(str2);
- if (dato1 === dato2 ){
+
+ if (str2.lenght === str1.lenght  )
+ {
    return true;
  }
- else { return false ; }
+ else 
+ { return false ;
+ }
  }
 
    // Retorna true si los dos strings tienen la misma longitud.
