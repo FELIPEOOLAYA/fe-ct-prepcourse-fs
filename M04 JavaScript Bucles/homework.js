@@ -218,15 +218,9 @@ function esPrimo(num) {
    {
       return false ;
    }
-   else {  
-   for (let i = 2 ; i < num ; i++ )
-   {
-      if (num % i == 0 )
-      { return false ; }
-   }
+  
 }
  
-}
 
 
 function esVerdadero(valor) {
@@ -256,14 +250,13 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
- var  i= 0; 
-   do 
-   {
-i=5+i;
-num = i + num ;  
-   }
-   while (i<8);
-   return num ; 
+   var  number = 0; 
+for ( let i = 0 ; i < 40 ; i+5 )
+{
+   num  = number  + i;  
+}
+number + num ;
+return number 
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
